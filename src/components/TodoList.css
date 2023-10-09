@@ -1,0 +1,16 @@
+
+.custom-grid {
+    border: 1px solid #ffffff;
+    align-items: center;
+  }
+
+ion-col {
+    border: 1px solid #ffffff;
+    padding: 8px;
+  }
+  
+
+  ion-row:first-child ion-col {
+    background-color: #25b4b9;
+  }
+  
