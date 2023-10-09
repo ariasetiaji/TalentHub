@@ -1,0 +1,23 @@
+GET http://localhost:5000/todos
+###
+GET http://localhost:5000/todos/1
+###
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+    "name": "IPA",
+    "desc": "Merangkum IPA BAB 3",
+    "due": "2023-10-28"
+}
+###
+PATCH  http://localhost:5000/todos/1
+Content-Type: application/json
+
+{
+    "name": "IPA",
+    "desc": "Merangkum IPA BAB 10",
+    "due": "2023-10-29"
+}
+###
+DELETE http://localhost:5000/todos/2
